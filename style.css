@@ -8,6 +8,7 @@
 	IMPORTS
 -----------------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Delius:400,700);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
 
 /*---------------------------------
 	OVERRIDES
@@ -15,6 +16,18 @@
 h1,h2,h3,h4,h5,h6{
 font-family: "Delius", arial, verdana, sans-serif;
 font-weight:normal;
+}
+
+p {
+	font-family: "Josefin Slab", arial, verdana, sans-serif;
+	font-size: 1.7em;
+	line-height: 1.4em;
+}
+
+ul li {
+	font-family: "Josefin Slab", arial, verdana, sans-serif;
+	/*font-size: 1.7em;*/
+	/*line-height: 1.4em;/*/
 }
 
 thead th,
@@ -32,6 +45,8 @@ font-family: "Righteous", arial, verdana, sans-serif;
 
 .menu{
 font-family: "Righteous", arial, verdana, sans-serif;
+/*position: fixed;*/
+/*width: 100%*/
 }
 
 blockquote{
@@ -45,7 +60,8 @@ body{
 margin:0;
 padding:0 0 0 0;
 color:#000;
-/*background:#efefef url(css/img/gray_jean.png);*/
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/BYR_color_wheel.svg/2000px-BYR_color_wheel.svg.png);
+
 font:normal 0.9em/150% 'Righteous', arial, verdana, sans-serif;
 text-shadow: 0 0 1px transparent; /* google font pixelation fix */
 }
@@ -171,4 +187,23 @@ hr  {
   border-bottom: 3px solid blue !important;
 }
 
-/*.slideshow {padding-top: 50px;}*/
+.grid {
+	background-color: white;
+}
+
+button {
+	margin: 0 auto;
+	display: block;
+}
+
+/*// Nav Styling */
+
+.mobile-menu {
+text-align: right;
+}
+
+.gallery img {
+	width: 250px;
+	height: 200px;
+
+}

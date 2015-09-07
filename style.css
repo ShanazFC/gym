@@ -43,6 +43,8 @@ input[type="button"]{
 font-family: "Righteous", arial, verdana, sans-serif;
 }
 
+
+
 .menu{
 font-family: "Righteous", arial, verdana, sans-serif;
 /*position: fixed;*/
@@ -191,9 +193,13 @@ hr  {
 	background-color: white;
 }
 
+a {
+	text-decoration: none;
+}
 button {
 	margin: 0 auto;
 	display: block;
+	font-weight: bold
 }
 
 /*// Nav Styling */

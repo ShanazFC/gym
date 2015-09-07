@@ -46,9 +46,15 @@ font-family: "Righteous", arial, verdana, sans-serif;
 
 
 .menu{
-font-family: "Righteous", arial, verdana, sans-serif;
+font-family: "sans-serif", arial, verdana, sans-serif;
+font-weight: bold;
 /*position: fixed;*/
 /*width: 100%*/
+}
+
+.menu li {
+	font-family: "sans-serif", arial, verdana, sans-serif;
+	font-weight: bold;
 }
 
 blockquote{
